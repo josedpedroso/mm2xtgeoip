@@ -5,5 +5,5 @@ cd /tmp/mm2xtgeoip_dl || exit 1
 rm * > /dev/null 2>&1
 wget -q https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country-CSV.zip
 unzip -jq GeoLite2-Country-CSV.zip || exit 2
-/root/geoip/mm2xtgeoip || exit 3
+mm2xtgeoip || exit 3
 rm * > /dev/null 2>&1
