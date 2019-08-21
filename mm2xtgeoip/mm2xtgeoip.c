@@ -19,7 +19,7 @@
 
 const char *argp_program_version = "mm2xtgeoip 0.9";
 
-const char *argp_program_bug_address = "<x@y.z>";
+const char *argp_program_bug_address = "https://github.com/josedpedroso/mm2xtgeoip/issues";
 
 static char argp_doc[] = "mm2xtgeoip -- converts MaxMind geoip CSV databases to the format used by the xtables geoip match module\v"
                          "Return values:\n"
