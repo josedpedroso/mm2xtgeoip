@@ -129,17 +129,3 @@ unsigned detect_columns(char **header, size_t header_size, const char **required
     
     return num_found;
 }
-
-/*int main(void) {
-    char *tokens[16];
-    char line[256];
-    unsigned i;
-    gets(line);
-    unsigned num_tokens = tokenize_csv(line, tokens, 16);
-    printf("%d tokens:\n", num_tokens);
-    for (i=0; i<num_tokens; i++) {
-        printf("\t***%s***\n", tokens[i]);
-    }
-    puts("end.");
-    return 0;
-}*/
